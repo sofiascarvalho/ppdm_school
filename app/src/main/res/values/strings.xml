@@ -19,4 +19,8 @@
     <string name="description_rds">Learn to design communication networks.</string>
     <string name="description_ele">Learn to design communication networks.</string>
     <string name="semester">3 semestres</string>
+    <string name="all">All</string>
+    <string name="studying">Studying</string>
+    <string name="finished">Finished</string>
+    <string name="list">Students List</string>
 </resources>

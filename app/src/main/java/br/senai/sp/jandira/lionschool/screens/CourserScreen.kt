@@ -84,7 +84,7 @@ fun CourserScreen(modifier: Modifier = Modifier) {
             OutlinedTextField(
                 value = "",
                 onValueChange = {},
-                label = {},
+                label = {Text(text = "Find a course", fontSize = 15.sp)},
                 trailingIcon = {
                     Icon(
                         imageVector = Icons.Default.Search,
@@ -94,7 +94,11 @@ fun CourserScreen(modifier: Modifier = Modifier) {
                 },
                 shape = RoundedCornerShape(8.dp),
                 modifier = Modifier.padding(all = 20.dp)
-                    .height(36.dp).width(322.dp)
+                    .height(45.dp).width(322.dp),
+                colors = OutlinedTextFieldDefaults.colors(
+                    focusedBorderColor = Color(0xffFFC23D),
+                    unfocusedBorderColor = Color(0xffFFC23D)
+                )
             )
         }
         Row (
