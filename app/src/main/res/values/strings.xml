@@ -9,4 +9,14 @@
     <string name="instagram">Application Instagram</string>
     <string name="facebook">Get Facebook</string>
     <string name="courses">Courses</string>
+    <string name="ds">DS</string>
+    <string name="rds">RDS</string>
+    <string name="ele">ELE</string>
+    <string name="DS">Desenvolvimento de Sistemas</string>
+    <string name="RDS">Redes de Computadores</string>
+    <string name="ELE">Eletroeletrônica</string>
+    <string name="description_ds">Learn to develop web and mobile applications.</string>
+    <string name="description_rds">Learn to design communication networks.</string>
+    <string name="description_ele">Learn to design communication networks.</string>
+    <string name="semester">3 semestres</string>
 </resources>
