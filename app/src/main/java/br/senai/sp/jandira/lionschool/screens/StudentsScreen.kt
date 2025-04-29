@@ -29,6 +29,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
@@ -37,6 +38,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import br.senai.sp.jandira.lionschool.R
+import br.senai.sp.jandira.lionschool.screens.components.LionStudents
 
 @Composable
 fun StudentsScreen(modifier: Modifier = Modifier) {
@@ -221,6 +223,56 @@ fun StudentsScreen(modifier: Modifier = Modifier) {
                 fontSize = 18.sp,
                 color = Color(0xff3347B0),
                 fontWeight = FontWeight.SemiBold,
+            )
+        }
+        Column (
+            modifier = Modifier
+                .padding(top = 320.dp)
+                .fillMaxWidth(),
+            verticalArrangement = Arrangement.SpaceBetween,
+            horizontalAlignment = Alignment.CenterHorizontally
+        ){
+            LionStudents(
+                name = stringResource(R.string.luana),
+                registration = stringResource(R.string.registration),
+                year = stringResource(R.string.course_finished),
+                bulletcolor = colorResource(R.color.yellow),
+                image = painterResource(R.drawable.luana)
+            )
+            LionStudents(
+                name = stringResource(R.string.pedro),
+                registration = stringResource(R.string.registration),
+                year = stringResource(R.string.course_finished),
+                bulletcolor = colorResource(R.color.yellow),
+                image = painterResource(R.drawable.pedro)
+            )
+            LionStudents(
+                name = stringResource(R.string.ana),
+                registration = stringResource(R.string.registration),
+                year = stringResource(R.string.course_studying),
+                bulletcolor = colorResource(R.color.blue),
+                image = painterResource(R.drawable.ana)
+            )
+            LionStudents(
+                name = stringResource(R.string.fabi),
+                registration = stringResource(R.string.registration),
+                year = stringResource(R.string.course_finished),
+                bulletcolor = colorResource(R.color.yellow),
+                image = painterResource(R.drawable.fabi)
+            )
+            LionStudents(
+                name = stringResource(R.string.carlos),
+                registration = stringResource(R.string.registration),
+                year = stringResource(R.string.course_finished),
+                bulletcolor = colorResource(R.color.blue),
+                image = painterResource(R.drawable.fabi)
+            )
+            LionStudents(
+                name = stringResource(R.string.pxavier),
+                registration = stringResource(R.string.registration),
+                year = stringResource(R.string.course_finished),
+                bulletcolor = colorResource(R.color.blue),
+                image = painterResource(R.drawable.fabi)
             )
         }
     }

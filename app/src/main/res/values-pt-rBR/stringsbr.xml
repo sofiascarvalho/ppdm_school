@@ -23,4 +23,13 @@
     <string name="studying">Cursando</string>
     <string name="finished">Finalizado</string>
     <string name="list">Students List</string>
+    <string name="luana">Luana Oliveira Dias</string>
+    <string name="registration">20151001018 </string>
+    <string name="course_finished">2022</string>
+    <string name="pedro">Pedro da Silva Borges</string>
+    <string name="course_studying">2025</string>
+    <string name="ana">Ana Clara Gomes</string>
+    <string name="fabi">Fabiana Luz Moraes</string>
+    <string name="carlos">Carlos Agusto Nobre</string>
+    <string name="pxavier">Pedro Xavier</string>
 </resources>
